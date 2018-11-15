@@ -1,0 +1,101 @@
+/**
+ * Float Layout Activity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px ;
+    background-color: #777;
+    color: #777;
+  }
+  
+  header {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    margin-bottom: 10px;
+    background:#ebebeb;
+  }
+  /* navagation */
+  
+  #topnav {
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    margin-bottom: 20px;
+    background:#ebebeb;
+  }
+  /* Content */
+  
+  #content {
+  margin: auto;
+  width: 70%;
+  height: 300px;
+  margin-bottom: 20px;
+  background: clear;
+  }
+  
+  aside {
+    background-color:#ebebeb;
+    float: right;
+    width: 43%;
+    height: 300px;
+    
+  }
+  
+  section {
+    position: absolute;
+    background-color: #ebebeb;
+    width: 38%;
+    height: 300px;
+    border: 20px;
+    padding: 20px;
+    
+  }
+  
+   article {
+    position: relative;
+    background-color: #777;
+    color: white;
+    margin: auto;
+    margin-top: 15px;
+    padding:5%;
+    width: 100%;
+    height: 223px;
+    
+   }
+   h1 {
+     position: absolute;
+     background-color: #ebebeb;
+     top: 60px;
+     height: 45px;
+     width: 90%;
+     
+     margin: auto;
+     padding: 15px;
+  
+   }
+   p {
+    position: absolute;
+    background-color: #ebebeb;
+    top: 115px;
+    height: 45px;
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+  
+   }
+  
+  footer {
+    background-color:#ebebeb;
+    margin: auto;
+    width: 70%;
+    clear: both;
+    padding: 20px;
+  }
+   
